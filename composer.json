@@ -1,0 +1,17 @@
+{
+  "name": "Hframework",
+  "description": "PHP Networking framework & Application Server.",
+  "homepage": "http://www.dreamgoo.com/",
+  "license": "JHH",
+  "require": {
+    "noahbuscher/macaw": "dev-master",
+    "illuminate/database": "*",
+    "filp/whoops": "*",
+    "smarty/smarty": "~3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
